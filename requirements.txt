@@ -1,2 +1,3 @@
 pandas
 joblib
+openpyxl
