@@ -1,27 +1,29 @@
 # THM_ABWL_RECHT
 
-How to download and run:
+## How to download and run:
 
 1. Download .zip file from github.
 
-2. Download and install python 3.X
+2. Open your Explorer, navigate to the .zip file and Unzip this file.
+
+3. Download and install python 3.X.  
     ATTENTION: Check the box "install pip" by installing python and check "add python to system path"!
 
-3. Restart your PC
+4. Restart your PC.
 
-4. Open cmd and navigate to the directoryfrom the project
+5. Open your cmd and navigate to the directory from the project
 
-5. Execute this command:
+6. Execute this command:
 
 ```
 pip install -r requirements.txt
 ```
 
-6. Run the application:
+7. Run the application:
 
 ```
 python selbst_kontrolle_script.py
 ```
 
 ------------------------------
-Your progress will be stored in this file "progress.pkl"
+## Your progress will be stored in this file "progress.pkl"
