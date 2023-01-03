@@ -85,7 +85,7 @@ if __name__ == '__main__':
     while len(progress.succesfull) != len(progress.all_possible_question):
         #try:
             os.system('cls')
-            timediff = (len(progress.all_possible_question) - len(progress.succesfull)) * (datetime.now() - progress.starttime)
+            timediff = (len(progress.all_possible_question) - len(progress.succesfull)) * ((datetime.now() - progress.starttime) / len(progress.succesfull))
             timediff = str(timediff).split(".")[0]
             print(f'Statusbericht:\t\t'
                   f'\nAnzahl an gegeben Antworten: {progress.answercounter}\t\t So viele Fragen gibt es aktuell: {len(progress.all_possible_question)}'
