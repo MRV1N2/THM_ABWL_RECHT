@@ -86,7 +86,7 @@ if __name__ == '__main__':
         #try:
             os.system('cls')
             timediff = '~'
-            if len(progress.successfull) != 0:
+            if len(progress.succesfull) != 0:
                 timediff = (len(progress.all_possible_question) - len(progress.succesfull)) * ((datetime.now() - progress.starttime) / tempcount)
                 timediff = str(timediff).split(".")[0]
                 
